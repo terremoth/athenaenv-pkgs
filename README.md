@@ -1,5 +1,8 @@
-# AthenaEnv Libs and Modules
-Libraries and Modules for the AthenaEnv PS2  
+# AthenaEnv Packages
+
+![AthenaEnv Packages](https://github.com/terremoth/athenaenv-libs/blob/main/athena-pkgs.png)
+
+Packages for the AthenaEnv PS2  
 
 Feel free to send via pull request your library or module  
 
@@ -10,5 +13,5 @@ Standard template to push your lib:
 
 The zeus package manager should then find the package with:
 ```sh
-$ zeus search lib-name
+$ zeus --search lib-name
 ```
