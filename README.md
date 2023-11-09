@@ -1,17 +1,18 @@
 # AthenaEnv Packages
 
-![AthenaEnv Packages](https://github.com/terremoth/athenaenv-libs/blob/main/athena-pkgs.png)
+![AthenaEnv Packages](https://github.com/terremoth/athenaenv-pkgs/blob/main/athena-pkgs.png)
 
-Packages for the AthenaEnv PS2  
+Main repository for packages of the [Athena Environment](https://github.com/DanielSant0s/AthenaEnv) to be used with [Zeus Package Manager](https://github.com/terremoth/zeus-pm)  
 
-Feel free to send via pull request your library or module  
+Feel free to send via pull request your package  
 
-Standard template to push your lib:  
-- create a directory in the root folder in this repo, with the exact name you want for the lib/module (all lowercase with no spaces, spaces in the name should have - (hyphen) separating
-- this root folder that lies your library should have a file called "description.txt" written what your lib does, so the package manager command "search" could list and read from these files
-- put your lib files inside this directory
+#### Standard template to push your pkg:  
+- create a directory in the root folder in this repo, with the exact name you want for the package (all lowercase with no spaces, spaces in the name should have - (hyphen) separating
+- this root folder that lies your package should have a file called "`description.txt`" written what your lib does, so the package manager command "search" could list and read from these files
+- put your pkg files inside this directory
 
 The zeus package manager should then find the package with:
+
 ```sh
-$ zeus --search lib-name
+$ python zeus.py --search pkg-name
 ```
