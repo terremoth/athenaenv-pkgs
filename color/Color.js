@@ -1,7 +1,3 @@
-//converter cor hexadecimal para rgb
-//lista de cores
-//escolher cor aleatoria
-
 export function Hex(hex) {
   hex.replace(/^#/, "");
   var bigInt = parseInt(hex, 16);
