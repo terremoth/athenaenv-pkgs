@@ -164,7 +164,7 @@ for (var cor in Colors) {
 }
 export function RandomColorList() {
   var r = Math.floor(Math.random() * ColorsName.length);
-  return Colors[r];
+  return Colors[ColorsName[r]];
 }
 export function RandomColor() {
   var r = Math.floor(Math.random() * 255);
