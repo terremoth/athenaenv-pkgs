@@ -1,13 +1,1 @@
 MercurySM it's a Save Maker/Manager for Athena Enviroment
-by GustavoFurtad2 (github.com/GustavoFurtad2)
-
-Use examples:
-
-let save = new MercurySM("save.json"); // Make a new Data using a json file
-
-console.log(save.exists("name")); // Checks if item "name" exists
-console.log(save.get("name")); // Get the value of the specified item
-console.log(save.delete("name")); // Dele item "name"
-save.setValue("name", "Game1"); // Set or create a value in item name, set Game1 of the new name value
-save.saveIn("save.json"); // Save the sketch in the specified file
-save.undo(); // Undo the sketch to the original file
