@@ -12,22 +12,15 @@ export class MercurySM {
     } 
     else {
 
-       var valid = true
-       try {
-          JSON.parse(content)
-       } catch(e) {
-          valid = false
-       }
-
-       if (valid == false) {
-          file.puts(JSON.stringify({}))
-          file.flush()
-          file.close()
-          this.original = {}
-       } else {
-          this.original = JSON.parse(content)
-       }
-       this.sketch = this.original
+      try {
+        this.sketch = {...this.original} = JSON.parse(content)
+      } catch(e) {
+        this.original = {}
+      
+        file.puts("{}")
+        file.flush()
+        file.close()
+        }
     }
   }
 
