@@ -1,16 +1,9 @@
-   ___      _                                                
-   /   \__ _| |_ __ _    /\/\   ___ _ __ ___ _   _ _ __ _   _ 
-  / /\ / _` | __/ _` |  /    \ / _ | '__/ __| | | | '__| | | |
- / /_/| (_| | || (_| | / /\/\ |  __| | | (__| |_| | |  | |_| |
-/___,' \__,_|\__\__,_| \/    \/\___|_|  \___|\__,_|_|   \__, |
-                                                        |___/ 
-
-Data Mercury it's a Json Data Handler for Athena Enviroment
+MercurySM it's a Save Maker/Manager for Athena Enviroment
 by GustavoFurtad2 (github.com/GustavoFurtad2)
 
 Use examples:
 
-let save = new Data("save.json"); // Make a new Data using a json file
+let save = new MercurySM("save.json"); // Make a new Data using a json file
 
 console.log(save.exists("name")); // Checks if item "name" exists
 console.log(save.get("name")); // Get the value of the specified item
