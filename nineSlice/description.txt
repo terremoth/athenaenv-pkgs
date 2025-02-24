@@ -1,0 +1,1 @@
+NineSlices are interfaces generated from 9 pieces of images that allow you to design an interface of any size
